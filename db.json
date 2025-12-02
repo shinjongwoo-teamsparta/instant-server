@@ -3,6 +3,9 @@
     { "id": 1, "title": "Hello World" }
   ],
   "users": [
-    { "id": 1, "name": "John" }
+    { "id": 1, "name": "John", "email": "john@example.com", "password": "1234" }
+  ],
+  "sessions": [
+    { "id": 1, "userId": 1, "token": "1234567890", "expiresAt": "2025-01-01T00:00:00.000Z" }
   ]
 }
